@@ -6,11 +6,13 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				Navbar: '#263238',
-				rws: '#007373',
-				warning: '#FF9800'
-			}
-			,
+				Navbar: '#001435',
+				warning: '#FF9800',
+				footerText: '#BDBDBD',
+			},
+			backgroundImage: {
+				'vbs': 'linear-gradient(to right, #0063ab, #004aad)',
+			},
 			animation: {
 				fade: 'fadeIn .4s ease-in-out',
 				slideInRight: 'slideInRight .4s ease-in-out',
