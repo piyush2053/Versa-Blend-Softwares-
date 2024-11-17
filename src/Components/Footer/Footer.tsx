@@ -1,4 +1,6 @@
 import {
+    FacebookFilled,
+    FacebookOutlined,
     LinkedinFilled,
 } from "@ant-design/icons";
 import { Divider } from "antd";
@@ -7,7 +9,7 @@ import { Fragment } from "react/jsx-runtime";
 export default function AppFooter() {
     return (
         <Fragment>
-            <Divider className="bg-gray-300"/>
+            <Divider className="bg-gray-300" />
             <div
                 className="text-gray-700 text-center py-6 bg-white px-[50px]"
             >
@@ -20,15 +22,15 @@ export default function AppFooter() {
                 </div>
                 <div>
                     <div className="flex flex-wrap mt-2 gap-3">
-                        {/* <a
-                            href="https://facebook.com"
+                        <a
+                            href="https://www.facebook.com/profile.php?id=61568561412969"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-gray-700 text-2xl hover:text-gray-400"
                         >
-                            <FacebookOutlined />
+                            <FacebookFilled className="text-blue-700" />
                         </a>
-                        <a
+                        {/* <a
                             href="https://twitter.com"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -45,7 +47,7 @@ export default function AppFooter() {
                             <InstagramOutlined />
                         </a> */}
                         <a
-                            href="https://linkedin.com"
+                            href="https://www.linkedin.com/company/vbs-versa-blend-softwares/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="text-[#0A66C2] text-2xl hover:text-gray-400"
