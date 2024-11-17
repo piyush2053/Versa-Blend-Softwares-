@@ -30,22 +30,6 @@ export default function AppFooter() {
                         >
                             <FacebookFilled className="text-blue-700" />
                         </a>
-                        {/* <a
-                            href="https://twitter.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-gray-700 text-2xl hover:text-gray-400"
-                        >
-                            <TwitterOutlined />
-                        </a>
-                        <a
-                            href="https://instagram.com"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-gray-700 text-2xl hover:text-gray-400"
-                        >
-                            <InstagramOutlined />
-                        </a> */}
                         <a
                             href="https://www.linkedin.com/company/vbs-versa-blend-softwares/"
                             target="_blank"
