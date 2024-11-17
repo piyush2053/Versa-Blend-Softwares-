@@ -1,12 +1,8 @@
 import {
-    FacebookOutlined,
-    TwitterOutlined,
-    InstagramOutlined,
     LinkedinFilled,
 } from "@ant-design/icons";
 import { Divider } from "antd";
 import { Fragment } from "react/jsx-runtime";
-
 
 export default function AppFooter() {
     return (
