@@ -1,3 +1,4 @@
+import Globe from "../../Chunks/Globe/Globe";
 import ClientReviews from "../../Sections/ClientReview/Review";
 import { Helmet } from "react-helmet";
 
@@ -21,6 +22,9 @@ export default function Home() {
         <meta name="twitter:image" content="URL_to_image_or_logo" />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
+      <>
+        <Globe />
+      </>
       <div className="mt-10">
         <ClientReviews />
       </div>

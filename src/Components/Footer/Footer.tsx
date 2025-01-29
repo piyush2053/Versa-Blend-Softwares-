@@ -1,6 +1,5 @@
 import {
     FacebookFilled,
-    FacebookOutlined,
     LinkedinFilled,
 } from "@ant-design/icons";
 import { Divider } from "antd";

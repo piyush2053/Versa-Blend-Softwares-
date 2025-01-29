@@ -13,36 +13,36 @@ interface Review {
 const reviews: Review[] = [
   {
     avatar:
-      "https://images.pexels.com/photos/3748221/pexels-photo-3748221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    username: "@jamesConnor",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeMkVONle0TRtaHQOOYOthhz5VpoHFpIolLg&s",
+    username: "@Josh Patel",
     rating: 5,
-    title: "Still happy with Freelo",
+    title: "Thanks VBS for my Resturant live Menu System",
     content:
-      "I owe these guys my life. Already used their landing page templates for my latest two projects.",
-    date: "2 days ago",
-    readTime: "6 min read",
+      "Now my whole menu add and Price variation is automated via my app and web app , Thanks to VBS Team",
+    date: "3 Months ago",
+    readTime: "23 min read",
   },
   {
     avatar:
-      "https://images.pexels.com/photos/3283568/pexels-photo-3283568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    username: "@SmithClaire",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaZtb105jAzU4uQ4ywZxeHG3855Rn4LiH-rw&s",
+    username: "@SamGupta",
     rating: 5,
-    title: "Still happy with Freelo",
+    title: "Great Integration within time",
     content:
-      "I owe these guys my life. Already used their landing page templates for my latest two projects.",
-    date: "2 days ago",
-    readTime: "6 min read",
+      "Thanks for integration my Dashboard with PowerBI, Dropping this review to encourage the team.",
+    date: "1 Month ago",
+    readTime: "11 min read",
   },
   {
     avatar:
-      "https://images.pexels.com/photos/775358/pexels-photo-775358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    username: "@chris_newton",
+      "https://media.licdn.com/dms/image/v2/C4D03AQH5IoUs4LDQFA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1578742302183?e=2147483647&v=beta&t=JQ5iMayhtHGxzrq-fNWFGo712bMpT2cjynEDufvEVqI",
+    username: "@RobinTate",
     rating: 5,
-    title: "Still happy with Freelo",
+    title: "Vs code extension",
     content:
-      "I owe these guys my life. Already used their landing page templates for my latest two projects.",
-    date: "2 days ago",
-    readTime: "6 min read",
+      "I'm thrilled to have my own VS Code extension for my small startup, making it easier for my developers to access the company's codebases all in one place!",
+    date: "2 Months ago",
+    readTime: "2 min read",
   },
 ];
 
@@ -57,16 +57,16 @@ const ClientReviews: React.FC = () => {
           <div className="bg-white pt-8 lg:pt-0 pb-8 px-5 md:px-8 rounded-md shadow shadow-2xl border hover:scale-105 transition hover:z-50">
             <div className="flex flex-col lg:flex-row items-center gap-4">
               <img
-                className="w-16 h-16 object-cover rounded-full border-4 border-white shadow-md"
+                className="w-16 h-16 object-cover rounded-full  shadow-md"
                 src={review.avatar}
                 alt={review.username}
               />
               <div>
                 <h2 className="text-lg font-semibold lg:mt-10">
-                  - {review.username}
+                  {review.username}
                 </h2>
                 <div className="flex items-center mt-2">
-                  <span className="shadow-lg bg-white rounded-full inline-flex items-center px-3 py-1.5 text-gray-500 text-xs">
+                  <span className="shadow-sm bg-white rounded-full inline-flex items-center px-3 py-1.5 text-gray-500 text-xs">
                     <svg
                       className="mr-1 w-5 h-5 text-yellow-400"
                       fill="currentColor"
@@ -76,9 +76,6 @@ const ClientReviews: React.FC = () => {
                       <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
                     </svg>
                     {review.rating}
-                  </span>
-                  <span className="ml-2.5 text-sm text-gray-400 mt-2.5">
-                    Excellent
                   </span>
                 </div>
               </div>
