@@ -8,11 +8,11 @@ export default function Navbar() {
 
     return (
         <Fragment>
-            <div className={`flex items-center justify-between py-[6px] px-10 text-white bg-vbs`}>
-                <div className="flex items-center gap-2">
-                    <p className="font-bold text-[30px]">VBS</p>
-                    <p className="ml-10">|</p>
-                    <div className="gap-4">
+            <div className={`flex items-center justify-between py-[4px] px-10 text-white bg-vbs`}>
+                <div className="flex items-center gap-1">
+                    <p className="font-bold text-[18px]">VBS</p>
+                    {/* <p className="ml-10">|</p> */}
+                    {/* <div className="gap-4">
                         <button
                             className={`bg-transparent hover:text-white hover:z-50 transition hover:scale-110 py-1 px-4 rounded ${isActive("/")}`}
                             onClick={() => navigate("/")}
@@ -31,7 +31,7 @@ export default function Navbar() {
                         >
                             Contact
                         </button>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </Fragment>
