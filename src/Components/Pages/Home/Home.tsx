@@ -1,6 +1,7 @@
 import Globe from "../../Chunks/Globe/Globe";
 import ClientReviews from "../../Sections/ClientReview/Review";
 import { Helmet } from "react-helmet";
+import OurProducts from "../../Sections/OurProducts/OurProducts";
 
 export default function Home() {
   return (
@@ -24,8 +25,12 @@ export default function Home() {
       </Helmet>
       <>
         <Globe />
+       
       </>
-      <div className="mt-10">
+      <div className="mt-5">
+        <OurProducts />
+      </div>
+      <div className="mt-3">
         <ClientReviews />
       </div>
     </div>

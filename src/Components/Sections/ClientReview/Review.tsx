@@ -54,7 +54,7 @@ const ClientReviews: React.FC = () => {
         Our satisfied clients review
       </h1>
       {reviews?.map((review, index) => (
-          <div className="bg-white pt-8 lg:pt-0 pb-8 px-5 md:px-8 rounded-md shadow shadow-2xl border hover:scale-105 transition hover:z-50">
+          <div className="bg-white border-[#040d21] pt-8 lg:pt-0 pb-8 px-5 md:px-8 rounded-2xl shadow shadow-2xl border hover:scale-105 transition hover:z-50">
             <div className="flex flex-col lg:flex-row items-center gap-4">
               <img
                 className="w-16 h-16 object-cover rounded-full  shadow-md"
