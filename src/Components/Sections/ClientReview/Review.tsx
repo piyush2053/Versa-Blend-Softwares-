@@ -49,8 +49,8 @@ const reviews: Review[] = [
 
 const ClientReviews: React.FC = () => {
   return (
-    <section className="grid md:grid-cols-2 xl:grid-cols-3 max-w-screen-xl mx-auto py-24 px-5 lg:px-10 gap-5">
-      <h1 className="md:col-span-2 xl:col-span-3 text-2xl md:text-4xl font-bold text-center text-gray-800 mb-10">
+    <section className="grid bg-[#ECEFF1] md:grid-cols-2 xl:grid-cols-3 px-20 mx-auto py-10 px-5 lg:px-10 gap-5">
+      <h1 className="md:col-span-2 xl:col-span-3 text-2xl md:text-4xl font-bold text-center text-gray-800 mb-5">
         Our satisfied clients review
       </h1>
       {reviews?.map((review, index) => (
