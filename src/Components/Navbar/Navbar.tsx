@@ -11,6 +11,7 @@ export default function Navbar() {
             <div className={`flex items-center justify-between py-[4px] px-10 text-white bg-vbs`}>
                 <div className="flex items-center gap-1">
                     <p className="font-bold text-[18px]">VBS</p>
+                    <p className="font-thin text-[13px] ml-2">| Versa Blend Softwares</p>
                     {/* <p className="ml-10">|</p> */}
                     {/* <div className="gap-4">
                         <button
