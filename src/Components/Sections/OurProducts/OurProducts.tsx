@@ -1,5 +1,6 @@
 import React from "react";
 import image from '../../../Assets/Images/vbsref.png'
+import TrueFocus from "../../Chunks/FocusText/FocusText";
 interface Product {
   name: string;
   description: string;
@@ -26,8 +27,16 @@ const OurProducts: React.FC = () => {
   return (
     <section className="grid md:grid-cols-2 max-w-screen-xl mx-auto py-10 px-5 lg:px-10 gap-5">
       <h1 className="md:col-span-2 text-2xl md:text-4xl font-bold text-center text-gray-800 mb-10">
-        Our Products
+      <TrueFocus
+        sentence="Our Products"
+        manualMode={false}
+        blurAmount={2}
+        borderColor="blue"
+        animationDuration={0.5}
+        pauseBetweenAnimations={1}
+      />
       </h1>
+     
       {products.map((product, index) => (
         <a
           key={index}

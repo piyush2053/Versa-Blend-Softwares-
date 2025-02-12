@@ -1,4 +1,5 @@
 import React from "react";
+import ShinyText from "../../Chunks/ShinyText/ShinyText";
 
 interface Review {
   avatar: string;
@@ -49,12 +50,10 @@ const reviews: Review[] = [
 
 const ClientReviews: React.FC = () => {
   return (
-    <section className="grid bg-[#ECEFF1] md:grid-cols-2 xl:grid-cols-3 px-20 mx-auto py-10 px-5 lg:px-10 gap-5">
-      <h1 className="md:col-span-2 xl:col-span-3 text-2xl md:text-4xl font-bold text-center text-gray-800 mb-5">
-        Our satisfied clients review
-      </h1>
+    <section className="grid bg-[#0D0D0D] md:grid-cols-2 xl:grid-cols-3 px-20 mx-auto py-10 px-5 lg:px-10 gap-5">
+      <ShinyText text="Our satisfied clients review" disabled={false} speed={1} className=' text-center custom-class md:col-span-2 xl:col-span-3 text-2xl md:text-4xl  mb-5' />
       {reviews?.map((review, index) => (
-          <div className="bg-white border-[#040d21] pt-8 lg:pt-0 pb-8 px-5 md:px-8 rounded-2xl shadow shadow-2xl border hover:scale-105 transition hover:z-50">
+          <div className="bg-transparent shadow shadow-xl shadow-[#212121] pt-8 lg:pt-0 pb-8 px-5 md:px-8 rounded-2xl hover:scale-105 transition hover:z-50">
             <div className="flex flex-col lg:flex-row items-center gap-4">
               <img
                 className="w-16 h-16 object-cover rounded-full  shadow-md"
@@ -62,11 +61,11 @@ const ClientReviews: React.FC = () => {
                 alt={review.username}
               />
               <div>
-                <h2 className="text-lg font-semibold lg:mt-10">
+                <h2 className="text-lg text-gray-500 font-semibold lg:mt-10">
                   {review.username}
                 </h2>
                 <div className="flex items-center mt-2">
-                  <span className="shadow-sm bg-white rounded-full inline-flex items-center px-3 py-1.5 text-gray-500 text-xs">
+                  <span className="shadow-sm bg-gray-900 rounded-full inline-flex items-center px-3 py-1.5 text-gray-500 text-xs">
                     <svg
                       className="mr-1 w-5 h-5 text-yellow-400"
                       fill="currentColor"
@@ -81,12 +80,12 @@ const ClientReviews: React.FC = () => {
               </div>
             </div>
 
-            <h3 className="text-lg font-semibold mt-7 mb-2.5">
+            <h3 className="text-lg text-gray-500 font-semibold mt-7 mb-2.5">
               {review.title}
             </h3>
-            <p className="leading-loose">{review.content}</p>
+            <p className="leading-loose text-gray-400">{review.content}</p>
             <div className="md:flex items-center gap-5 mt-4">
-              <span className="mb-3 md:mb-0 flex items-center text-gray-400 text-sm">
+              <span className="mb-3 md:mb-0 flex items-center text-gray-700 text-sm">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
