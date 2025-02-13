@@ -2,6 +2,7 @@ import Globe from "../../Chunks/Globe/Globe";
 import ClientReviews from "../../Sections/ClientReview/Review";
 import { Helmet } from "react-helmet";
 import OurProducts from "../../Sections/OurProducts/OurProducts";
+import NeonButton from "../../Chunks/Button/NeonButton";
 
 export default function Home() {
   return (
@@ -53,9 +54,12 @@ export default function Home() {
       </Helmet>
 
       <Globe />
+   
       <div className="mt-5">
+    
         <OurProducts />
       </div>
+      <NeonButton text="+ Contact Us for Enquiry"/>
       <div className="mt-3">
         <ClientReviews />
       </div>
