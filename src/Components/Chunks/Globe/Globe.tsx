@@ -14,7 +14,7 @@ const GlobeComponent = () => {
           onAnimationComplete={() => console.log('')}
           className="text-[45px]  text-white font-thin text-opacity-90" animationFrom={null} animationTo={null} />
         <BlurText
-          text=" VersaBlend Softwares is a global leader in IT solutions, offering a diverse range of services to clients worldwide.
+          text="VersaBlend Softwares is a global leader in IT solutions, offering a diverse range of services to clients worldwide.
           From software development to cloud computing, cybersecurity, and AI-driven solutions, we empower businesses across multiple industries with cutting-edge technology and innovation."
           delay={40}
           animateBy="words"

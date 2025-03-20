@@ -40,9 +40,8 @@ export default function Home() {
             "logo": "URL_to_logo",
             "description": "VBS offers web and app development services for businesses worldwide.",
             "sameAs": [
-              "https://www.facebook.com/yourpage",
-              "https://www.twitter.com/yourpage",
-              "https://www.linkedin.com/company/yourpage"
+              "https://www.facebook.com/profile.php?id=61568561412969",
+              "https://www.linkedin.com/company/vbs-versa-blend-softwares/"
             ]
           })}
         </script>
