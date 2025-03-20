@@ -8,7 +8,6 @@ import { Fragment } from "react/jsx-runtime";
 export default function AppFooter() {
     return (
         <Fragment>
-            <Divider className="bg-gray-300" />
             <div
                 className="text-gray-700 text-center py-6 bg-white px-[50px]"
             >

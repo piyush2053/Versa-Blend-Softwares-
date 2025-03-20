@@ -3,6 +3,7 @@ import ClientReviews from "../../Sections/ClientReview/Review";
 import { Helmet } from "react-helmet";
 import OurProducts from "../../Sections/OurProducts/OurProducts";
 import NeonButton from "../../Chunks/Button/NeonButton";
+import MapComponent from "../../Chunks/Globe/GlobeInteractive";
 
 export default function Home() {
   return (
@@ -15,13 +16,13 @@ export default function Home() {
         />
         <meta name="keywords" content="web development, app development, IT solutions, software company, digital transformation" />
         <meta name="author" content="Versa Blend Softwares" />
-        
+
         <meta property="og:title" content="VBS - Web & App Development Experts" />
         <meta property="og:description" content="VBS provides top-tier web and app development services for businesses worldwide." />
         <meta property="og:image" content="URL_to_image_or_logo" />
         <meta property="og:url" content="https://www.versablendsoftwares.com" />
         <meta property="og:type" content="website" />
-        
+
         <meta name="twitter:title" content="VBS - Software Solutions & Web Development" />
         <meta name="twitter:description" content="Get expert web and app development services with Versa Blend Softwares." />
         <meta name="twitter:image" content="URL_to_image_or_logo" />
@@ -53,12 +54,15 @@ export default function Home() {
       </Helmet>
 
       <Globe />
-   
+
       <div className="mt-5">
-    
         <OurProducts />
       </div>
-      <NeonButton text="+ Contact Us for Enquiry"/>
+      <NeonButton text="+ Contact Us for Enquiry" />
+      <div className="my-1 flex justify-center items-center">
+        <p className="font-thin text-[33px]">Locate Us</p>
+      </div>
+      <MapComponent />
       <div className="mt-3">
         <ClientReviews />
       </div>
